@@ -6,6 +6,7 @@ import './App.css';
 import Nav from './Nav';
 import Checkout from './Checkout';
 import TransitionItems from './TransitionItems';
+import Routes from './Routes';
 // import ToggleTransition from './ToggleTransition';
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
 				{/* <ToggleTransition /> */}
 				<TransitionItems />
 				<Checkout isOpen={isNavOpen} />
+				<Routes />
 			</main>
 		</animated.div>
 	);
